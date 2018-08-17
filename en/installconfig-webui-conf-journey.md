@@ -5,9 +5,18 @@ dialogs will be displayed to the administrator. It can be cancelled using the
 'skip' button in the top-right corner.
 
 Below are the default windows and window sections that will appear.
+---
+!!! These details/summary tokens should be wrapped in the discourse BBCODE equivalent:
+e.g.
 
 ^# MAAS (region) name
    ![conf journey step 1][conf-journey-step-1]
+   
+Would become 
+[details="MAAS (region) name"]
+   ![conf journey step 1][conf-journey-step-1]
+[/details]
+---
 
 ^# Connectivity (upstream DNS server, Ubuntu archives, and HTTP proxy)
    ![conf journey step 2][conf-journey-step-2]
